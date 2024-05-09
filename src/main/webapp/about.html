@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Value Point</title>
+    <link rel="shortcut icon" type="image" href="./image/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+</head>
+<body>
+
+    <!-- top navbar -->
+    <div class="top-navbar">
+        <div class="top-icons">
+          <a href="https://www.twitter.com"><i  class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="other-links">
+            <button id="btn-login"><a href="SignIn.jsp">Login</a></button>
+            <button id="btn-signup"><a href="SignUp.jsp">Sign up</a></button>
+            <a href="SignIn.jsp"><i class="fa-solid fa-user"></i></a>
+            <a href = "SigIn.jsp"><i class = "fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </div>
+    <!-- top navbar -->
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="DHomePage.jsp"><img src="./image/logo.png" alt="" width="180px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="DHomePage.jsp">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="DMen.jsp">For Him</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="DWomen.jsp">For Her</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="DHomePage.jsp">Unisex</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+               
+               
+                <form class="d-flex" action="DSearch.jsp" method = "post">
+                  <input class="form-control me-2" type="text" placeholder="Search" name="search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+
+<!-- about -->
+<div class="container" id="about">
+    <h1>ABOUT US</h1>
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+                <img src="./image/about.png" alt="">
+            </div>
+        </div>
+        <div class="col-md-6 py-3 py-md-0">
+            <p>Welcome to Value Point, the premier online destination for fashion-forward individuals seeking the latest trends in men's, women's, and unisex clothing. At Value Point, we believe that fashion should be accessible to all, which is why we strive to offer high-quality apparel at an affordable price point.
+
+                Our mission is to empower our customers to express their individuality through fashion while providing exceptional customer service and a seamless shopping experience. We are committed to offering a diverse selection of styles and sizes to fit every body type and personal style.
+                
+                At Value Point, we value inclusivity, sustainability, and ethical practices. We work with brands that share our values and are dedicated to reducing their environmental impact and promoting fair labor practices.
+                
+                Thank you for choosing Value Point as your go-to destination for fashion. We hope you enjoy your shopping experience with us and look forward to serving you.</p>
+        </div>
+    </div>
+</div>
+<!-- about -->
+
+
+<!-- offer -->
+    <div class="container" id="offer">
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h5>Free Shipping</h5>
+                <p>On order over $100</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-truck"></i>
+                <h5>Fast Delivery</h5>
+                <p>World wide</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h5>Big Choice</h5>
+                <p>Of product</p>
+            </div>
+        </div>
+    </div>
+<!-- offer -->
+
+
+
+
+
+
+<!-- footer -->
+<footer id="footer" style="margin-top: 50px;">
+  <div class="footer-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6 footer-content">
+                  <h3>Value Point</h3>
+                  <p>Style that speaks value - Discover the best at Value Point.</p>
+                  <p>
+                      Nepal <br>
+                      USA <br>
+                      Canada <br>
+                  </p>
+                  <strong><i class="fas fa-phone"></i> Phone: <strong>+977 9805867141</strong></strong><br>
+                  <strong><i class="fa-solid fa-envelope"></i> Email: <strong>valuepoint@gmail.com</strong></strong>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Usefull Links</h4>
+                  <ul>
+                    <li><a href="DHomePage.jsp">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Services</h4>
+                  <p>All kinds of Men and Women Fashion </p>
+                  <ul>
+                    <li><a href="DMen.jsp">Men</a></li>
+                    <li><a href="DWomen.jsp">Women</a></li>
+                    <li><a href="DHomePage.jsp">Unisex</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Social Network</h4>
+                  <p>Connect with fashion enthusiasts, discover the latest trends, and shop for affordable and stylish clothing.</p>
+                  <div class="socail-links mt-3">
+                      <a href="https://www.twitter.com" class="twiiter"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="https://www.facebook.com" class="twiiter"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="https://www.googleplus.com" class="twiiter"><i class="fa-brands fa-google-plus"></i></a>
+                      <a href="https://www.instagram.com" class="twiiter"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com" class="twiiter"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <hr>
+  <div class="container py-4">
+      <div class="copyright">
+          &copy; Copyright <strong>Value Point</strong>.All Rights Reserved
+      </div>
+  </footer>
+  <!-- footer -->
+  
+  <!-- <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   -->
+  </body>
+  </html>
